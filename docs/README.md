@@ -7,27 +7,45 @@ actions:
     link: /get-started.html
     type: primary
 
-  - text: Introduction
-    link: https://vuejs.press/guide/introduction.html
-    type: secondary
-
 features:
-  - title: Simplicity First
-    details: Minimal setup with markdown-centered project structure helps you focus on writing.
-  - title: Vue-Powered
-    details: Enjoy the dev experience of Vue, use Vue components in markdown, and develop custom themes with Vue.
-  - title: Performant
-    details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
-  - title: Themes
-    details: Providing a default theme out of the box. You can also choose a community theme or create your own one.
-  - title: Plugins
-    details: Flexible plugin API, allowing plugins to provide lots of plug-and-play features for your site.
-  - title: Bundlers
-    details: Default bundler is Vite, while Webpack is also supported. Choose the one you like!
+  - title: Multiple Generators
+    details: Support for Microsoft.AspNetCore.OpenApi, Swashbuckle, and NSwag with unified documentation.
+  - title: Feature-Based Learning
+    details: Learn by feature with practical examples and best practices for each OpenAPI capability.
+  - title: UI Integration
+    details: Complete guides for Swagger UI, Scalar, ReDoc and custom UI implementations.
+  - title: Best Practices
+    details: Industry-standard approaches to API documentation, security, and maintainability.
+  - title: Real Examples
+    details: Working code samples and practical implementations you can use immediately.
+  - title: Progressive Learning
+    details: Structured from basics to advanced topics, perfect for beginners and experts alike.
 
-footer: MIT Licensed | Copyright © 2018-present VuePress Community
+footer: MIT Licensed | Copyright © 2025 @xC0dex
 ---
 
-This is the content of home page. Check [Home Page Docs][default-theme-home] for more details.
+# The .NET OpenAPI Documentation Hub
 
-[default-theme-home]: https://vuejs.press/reference/default-theme/frontmatter.html#home-page
+Welcome to **openapidocs.net**, your comprehensive resource for OpenAPI implementation in .NET. Whether you're building your first API or optimizing enterprise solutions, find clear, practical guidance for OpenAPI generators, tooling, and best practices.
+
+## What You'll Learn
+
+- **Foundation**: OpenAPI fundamentals and generator selection
+- **Implementation**: Step-by-step setup and configuration
+- **Features**: Authentication, validation, custom schemas, and manipulating OpenAPI documents
+- **UI**: Multiple UI options with customization techniques
+- **Best Practices**: Security, documentation standards, and testing
+
+## Supported Generators
+
+| Generator | Status |
+|-----------|--------|
+| **Microsoft.AspNetCore.OpenApi** | ✅ Fully Documented |
+| **Swashbuckle** | 🚧 Coming Soon |
+| **NSwag** | 🚧 Coming Soon |
+
+## How to Use This Site
+Browse by feature to see how each OpenAPI generator implements it. Find code samples, troubleshooting tips, and best practices for .NET APIs.
+
+## Community & Contributions
+This is an open-source project, and contributions are welcome! Want to contribute or suggest improvements? [Open an issue or pull request](https://github.com/xC0dex/openapidocs).

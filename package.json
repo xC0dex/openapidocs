@@ -1,20 +1,23 @@
 {
-  "name": "openapi-dotnet-docs",
-  "description": "Documentation for the .NET OpenAPI stack",
-  "version": "0.0.1",
-  "license": "MIT",
-  "type": "module",
-  "scripts": {
-    "docs:build": "vuepress build docs",
-    "docs:clean-dev": "vuepress dev docs --clean-cache",
-    "docs:dev": "vuepress dev docs",
-    "docs:update-package": "pnpm dlx vp-update"
-  },
-  "devDependencies": {
-    "@vuepress/bundler-vite": "2.0.0-rc.20",
-    "@vuepress/theme-default": "2.0.0-rc.88",
-    "sass-embedded": "^1.91.0",
-    "vue": "^3.5.20",
-    "vuepress": "2.0.0-rc.20"
-  }
+	"name": "openapi-dotnet-docs",
+	"description": "Documentation for the .NET OpenAPI stack",
+	"version": "0.0.1",
+	"license": "MIT",
+	"type": "module",
+	"scripts": {
+		"build": "vuepress build docs",
+		"clean-dev": "vuepress dev docs --clean-cache",
+		"dev": "vuepress dev docs",
+		"update-package": "pnpm dlx vp-update",
+		"format": "biome format --write"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.2.2",
+		"@vuepress/bundler-vite": "2.0.0-rc.24",
+		"@vuepress/theme-default": "2.0.0-rc.112",
+		"prettier": "3.6.2",
+		"sass-embedded": "^1.91.0",
+		"vue": "^3.5.20",
+		"vuepress": "2.0.0-rc.24"
+	}
 }

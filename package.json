@@ -10,7 +10,8 @@
     "clean-dev": "vuepress dev docs --clean-cache",
     "dev": "vuepress dev docs",
     "update-package": "pnpm dlx vp-update",
-    "format": "prettier . --write "
+    "format": "prettier . --write",
+    "format:ci": "prettier ."
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.24",

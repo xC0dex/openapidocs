@@ -9,11 +9,11 @@ actions:
 
 features:
   - title: Multiple Generators
-    details: Support for Microsoft.AspNetCore.OpenApi, Swashbuckle, and NSwag with unified documentation.
+    details: Support for all modern OpenAPI generators.
   - title: Feature-Based Learning
     details: Learn by feature with practical examples and best practices for each OpenAPI capability.
   - title: UI Integration
-    details: Complete guides for Swagger UI, Scalar, ReDoc and custom UI implementations.
+    details: Complete guides for Scalar API Reference integration.
   - title: Best Practices
     details: Industry-standard approaches to API documentation, security, and maintainability.
   - title: Real Examples
@@ -28,6 +28,10 @@ footer: MIT Licensed | Copyright © 2025 @xC0dex
 
 Welcome to **openapidocs.net**, your comprehensive resource for OpenAPI implementation in .NET. Whether you're building your first API or optimizing enterprise solutions, find clear, practical guidance for OpenAPI generators, tooling, and best practices.
 
+::: info
+This documentation page is a work in progress. You may encounter missing or incomplete information.
+:::
+
 ## What You'll Learn
 
 - **Foundation**: OpenAPI fundamentals and generator selection
@@ -38,11 +42,11 @@ Welcome to **openapidocs.net**, your comprehensive resource for OpenAPI implemen
 
 ## Supported Generators
 
-| Generator                        | Status              |
-| -------------------------------- | ------------------- |
-| **Microsoft.AspNetCore.OpenApi** | ✅ Fully Documented |
-| **Swashbuckle**                  | 🚧 Coming Soon      |
-| **NSwag**                        | 🚧 Coming Soon      |
+| Generator                        | Status         |
+| -------------------------------- | -------------- |
+| **Microsoft.AspNetCore.OpenApi** | 🚧 Coming Soon |
+| **Swashbuckle.AspNetCore**       | 🚧 Coming Soon |
+| **NSwag.AspNetCore**             | 🚧 Coming Soon |
 
 ## How to Use This Site
 

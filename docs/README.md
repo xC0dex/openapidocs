@@ -38,14 +38,16 @@ Welcome to **openapidocs.net**, your comprehensive resource for OpenAPI implemen
 
 ## Supported Generators
 
-| Generator | Status |
-|-----------|--------|
+| Generator                        | Status              |
+| -------------------------------- | ------------------- |
 | **Microsoft.AspNetCore.OpenApi** | ✅ Fully Documented |
-| **Swashbuckle** | 🚧 Coming Soon |
-| **NSwag** | 🚧 Coming Soon |
+| **Swashbuckle**                  | 🚧 Coming Soon      |
+| **NSwag**                        | 🚧 Coming Soon      |
 
 ## How to Use This Site
+
 Browse by feature to see how each OpenAPI generator implements it. Find code samples, troubleshooting tips, and best practices for .NET APIs.
 
 ## Community & Contributions
+
 This is an open-source project, and contributions are welcome! Want to contribute or suggest improvements? [Open an issue or pull request](https://github.com/xC0dex/openapidocs).

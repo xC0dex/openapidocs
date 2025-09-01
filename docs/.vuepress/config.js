@@ -10,7 +10,9 @@ export default defineUserConfig({
 
   theme: defaultTheme({
     logo: 'https://vuejs.press/images/hero.png',
-
+    repo: 'https://github.com/xC0dex/openapidocs',
+    docsDir: '/docs',
+    editLink: true,
     navbar: ['/'],
     sidebar: [
       {

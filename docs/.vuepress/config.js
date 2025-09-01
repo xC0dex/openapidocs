@@ -4,7 +4,6 @@ import { viteBundler } from '@vuepress/bundler-vite';
 
 export default defineUserConfig({
   lang: 'en-US',
-
   title: 'openapidocs.net',
   description: 'The .NET OpenAPI Documentation Hub',
 

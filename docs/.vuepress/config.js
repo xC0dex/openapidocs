@@ -13,6 +13,7 @@ export default defineUserConfig({
     repo: 'https://github.com/xC0dex/openapidocs',
     docsDir: '/docs',
     contributors: false,
+    editLink: false,
     navbar: ['/'],
     sidebar: [
       {

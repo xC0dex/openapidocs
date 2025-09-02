@@ -38,12 +38,14 @@ An OpenAPI document is a JSON or YAML file that completely describes your API. H
 	<summary>OpenAPI Example (YAML)</summary>
 
 @[code yaml](openapi-example.yaml)
+
 </details>
 
 <details>
 	<summary>OpenAPI Example (JSON)</summary>
 
 @[code json](openapi-example.json)
+
 </details>
 
 ### Paths and Operations
@@ -86,6 +88,7 @@ OpenAPI documents all the ways data flows into and out of your API:
 OpenAPI provides comprehensive validation capabilities that map well to .NET's type system:
 
 ### Basic Data Types
+
 - **string**: Maps to C# `string`, with format validation (email, uri, date)
 - **number**: Maps to C# `decimal`, `double`, with range validation
 - **integer**: Maps to C# `int`, `long`, with range validation
@@ -94,12 +97,14 @@ OpenAPI provides comprehensive validation capabilities that map well to .NET's t
 - **object**: Maps to C# classes and records
 
 ### Validation Rules
+
 - **String validation**: Length limits, regex patterns, format checking
 - **Numeric validation**: Min/max values, multiple constraints
 - **Array validation**: Item count limits, uniqueness requirements
 - **Object validation**: Required properties, additional property handling
 
 ### Advanced Schema Features
+
 - **Inheritance**: Use `allOf`, `oneOf`, `anyOf` for complex type relationships
 - **Polymorphism**: Handle different object types with discriminators
 - **Conditional logic**: Apply validation rules based on other field values
@@ -110,6 +115,7 @@ OpenAPI provides comprehensive validation capabilities that map well to .NET's t
 OpenAPI supports all common authentication patterns used in .NET applications:
 
 ### API Keys
+
 ```yaml
 securitySchemes:
   ApiKeyAuth:
@@ -119,6 +125,7 @@ securitySchemes:
 ```
 
 ### JWT Bearer Tokens
+
 ```yaml
 securitySchemes:
   BearerAuth:
@@ -128,6 +135,7 @@ securitySchemes:
 ```
 
 ### OAuth 2.0 and OpenID Connect
+
 ```yaml
 securitySchemes:
   OAuth2:
@@ -149,6 +157,7 @@ It's important to understand the relationship between OpenAPI and Swagger:
 - **Swagger** is a collection of tools that work with OpenAPI documents
 
 In the .NET ecosystem, you'll encounter:
+
 - **OpenAPI generators** that create specifications from your C# code
 - **Scalar and other UI tools** for rendering interactive documentation
 - **OpenAPI documents** (the JSON/YAML files) that describe your API
@@ -156,18 +165,23 @@ In the .NET ecosystem, you'll encounter:
 ## Practical Applications
 
 ### Interactive Documentation
+
 Replace static API documentation with live, interactive docs that developers can test directly in their browser.
 
 ### Client Code Generation
+
 Automatically generate strongly-typed client libraries for TypeScript, C#, Python, Java, and other languages.
 
 ### API Testing and Validation
+
 Use your OpenAPI specification to validate requests and responses, generate test cases, and ensure API compliance.
 
 ### Development Workflow Integration
+
 Integrate OpenAPI generation into your CI/CD pipeline to catch breaking changes and maintain documentation quality.
 
 ### API Governance
+
 Establish consistency across multiple APIs in your organization by standardizing on OpenAPI practices.
 
 ## What's Next?

@@ -1,9 +1,8 @@
 on:
-  - push
   - pull_request
 
 jobs:
-  install:
+  build-format:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -22,6 +21,10 @@ jobs:
         run: |
           pnpm install
 
-      - name: 'Check format'
+      - name: Build
+        run: |
+          pnpm build
+
+      - name: Check format
         run: |
           pnpm format:ci

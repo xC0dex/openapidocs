@@ -8,12 +8,13 @@ export default defineUserConfig({
   description: 'The .NET OpenAPI Documentation Hub',
 
   theme: defaultTheme({
-    logo: 'https://vuejs.press/images/hero.png',
+    logo: '/image.png',
     repo: 'https://github.com/xC0dex/openapidocs',
     docsDir: '/docs',
     contributors: false,
     editLink: false,
     navbar: ['/'],
+    sidebarDepth: 1,
     sidebar: [
       {
         text: 'Getting Started',

@@ -24,7 +24,17 @@ Validate requests/responses and generate test cases automagically.
 
 An OpenAPI document is a JSON or YAML file that describes your API:
 
+<details open>
+	<summary>OpenAPI Example (YAML)</summary>
+
 @[code yaml](openapi-example.yaml)
+</details>
+
+<details>
+	<summary>OpenAPI Example (JSON)</summary>
+
+@[code json](openapi-example.json)
+</details>
 
 ## Key Benefits in .NET
 

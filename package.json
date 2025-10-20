@@ -14,7 +14,7 @@
     "format:ci": "prettier . --check"
   },
   "devDependencies": {
-    "@vuepress/bundler-vite": "2.0.0-rc.25",
+    "@vuepress/bundler-vite": "2.0.0-rc.26",
     "@vuepress/theme-default": "2.0.0-rc.114",
     "prettier": "3.6.2",
     "sass-embedded": "^1.93.2",
